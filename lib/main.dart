@@ -37,20 +37,10 @@ class AdvicePage extends StatefulWidget {
 class _AdvicePageState extends State<AdvicePage> {
   late Future<Welcome> futureData;
   @override
-  //**Initialisez The From Api Into App */
+  //**Initializes The From Api Into App */
   void initState() {
     futureData = getApiData();
     super.initState();
-  }
-
-  void refreshData() {
-    getApiData();
-  }
-
-  FutureOr(dynamic Welcome) {
-    setState(() {
-      refreshData();
-    });
   }
 
   @override
@@ -61,9 +51,7 @@ class _AdvicePageState extends State<AdvicePage> {
         width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage(
-              "assets/Luffy.jpg",
-            ),
+            image: AssetImage("assets/Pinkie.png"),
             fit: BoxFit.fill,
             filterQuality: FilterQuality.high,
           ),
