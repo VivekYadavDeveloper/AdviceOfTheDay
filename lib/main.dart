@@ -43,9 +43,9 @@ class _AdvicePageState extends State<AdvicePage> {
     super.initState();
   }
 
-  Future<void> _refreshData() async {
-    await getApiData();
-  }
+  // Future<void> _refreshData() async {
+  //   await getApiData();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -110,11 +110,6 @@ class _AdvicePageState extends State<AdvicePage> {
             ),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _refreshData();
-        },
       ),
     );
   }
