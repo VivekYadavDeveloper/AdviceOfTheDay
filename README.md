@@ -1,7 +1,11 @@
-# advice_status
+# Advice Application
 
 A new Flutter project.
-I Made This Advice App With FLutter. Its My First Project To Learn APi integration Fateching Data From Server.
+Used Utili.
+
+BLOC Pattern
+Http
+
 
 ## Getting Started
 
